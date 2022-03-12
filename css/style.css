@@ -5,4 +5,30 @@ html {
     box-sizing: inherit;
 }
 
+/*font-family: 'PT Serif', serif;*/
+/*font-family: 'Roboto Condensed', sans-serif;*/
+
+.header {
+    text-align: center;
+}
+
+.header__logo {
+    padding: 88px 0 60px;
+}
+
+.menu {
+    border-top: 2px solid #c4c4c4;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: center;
+}
+
+.menu__list-link {
+    font-size: 24px;
+    line-height: 24px;
+    color: #888;
+    text-decoration: none;
+}
 
