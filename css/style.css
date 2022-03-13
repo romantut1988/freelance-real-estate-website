@@ -62,3 +62,11 @@ body {
 .menu__list-item:last-child {
     border-right: 1px solid #c4c4c4;
 }
+
+.slider__item {
+    background-image: url("../images/slider-item.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 600px;
+}
