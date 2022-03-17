@@ -16,6 +16,12 @@ body {
     color: #000;
 }
 
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .header {
     text-align: center;
 }
@@ -140,4 +146,15 @@ body {
     background-image: url("/images/search-icon.svg");
     top: 26px;
     left: 9px;
+}
+
+.popular__title {
+    background-color: #000;
+    color: #fff;
+    line-height: 64px;
+    font-size: 48px;
+    font-family: 'PT Serif', sans-serif;
+    padding: 18px 15px;
+    text-align: center;
+    font-weight: 400;
 }
