@@ -251,8 +251,29 @@ body {
 }
 
 .best {
+    text-align: right;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
+}
+
+.best__title {
+    font-weight: 400;
+    color: #fff;
+    font-family: 'PT Serif', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 492px;
+    margin-left: auto;
+    padding-top: 68px;
+    padding-bottom: 15px;
+}
+
+.best__link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 16px 18px;
 }
