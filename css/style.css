@@ -249,3 +249,10 @@ body {
     height: 30px;
     background-image: url("../images/arrow-black.svg");
 }
+
+.best {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
