@@ -386,3 +386,7 @@ body {
     padding: 16px 21px;
     line-height: 18px;
 }
+
+.footer {
+    background-color: #000;
+}
