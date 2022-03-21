@@ -451,3 +451,8 @@ body {
     background-color: #c4c4c4;
     padding: 27px 35px;
 }
+
+.footer__logo {
+    text-align: center;
+    padding: 3px 0 23px;
+}
