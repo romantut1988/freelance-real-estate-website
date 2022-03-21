@@ -387,6 +387,67 @@ body {
     line-height: 18px;
 }
 
-.footer {
+.footer__top {
+    color: #fff;
     background-color: #000;
+    padding: 100px 0;
+}
+
+.footer__top-inner {
+    display: flex;
+    align-items: center;
+}
+
+.footer__list {
+    list-style: none;
+    width: 250px;
+    margin-right: 50px;
+}
+
+.footer__menu-link {
+    font-size: 24px;
+    Line-height: 36px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__form-label {
+    line-height: 18px;
+    margin-right: 10px;
+    color: #888888;
+}
+
+.footer__form {
+    display: flex;
+    align-items: center;
+}
+
+.footer__form-input {
+    display: block;
+    width: 511px;
+    height: 70px;
+    background-color: #fff;
+    border: none;
+    padding: 0 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #888;
+}
+
+.footer__form-input::placeholder {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #888;
+}
+
+.footer__form-btn {
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    background-color: #c4c4c4;
+    padding: 27px 35px;
 }
