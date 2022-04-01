@@ -470,6 +470,9 @@ body {
         width: 400px;
         height: 400px;
     }
+    .best {
+        min-height: 80vh;
+    }
 }
 
 @media (max-width: 992px) {
@@ -510,6 +513,9 @@ body {
         top: 50%;
         transform: translateY(-50%);
     }
+    .best {
+        min-height: 600px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -531,6 +537,9 @@ body {
 
     .popular__item {
         width: 100%;
+    }
+    .best {
+        min-height: 400px;
     }
 }
 
@@ -569,6 +578,10 @@ body {
     }
 
     .reason__title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .best__title {
         font-size: 28px;
         line-height: 32px;
     }
