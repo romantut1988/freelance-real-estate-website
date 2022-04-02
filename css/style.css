@@ -475,6 +475,20 @@ body {
     }
 }
 
+@media (max-width: 1140px) {
+    .about__inner {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .reviews {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .blog {
+        margin-left: 150px;
+    }
+}
+
 @media (max-width: 992px) {
     .search__form {
         flex-wrap: wrap;
@@ -515,6 +529,24 @@ body {
     }
     .best {
         min-height: 600px;
+    }
+}
+
+@media (max-width: 900px) {
+    .about__inner {
+        display: block;
+    }
+    .our-managers {
+        margin: 0 auto;
+    }
+    .blog {
+        margin: 50px auto;
+        max-width: 420px;
+        width: auto;
+    }
+    .reviews {
+        margin: 0 auto;
+        max-width: 420px;
     }
 }
 
