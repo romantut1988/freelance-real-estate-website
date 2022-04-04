@@ -574,11 +574,13 @@ body {
     .footer__form {
         flex-direction: column;
     }
+
     .footer__form-label {
         text-align: center;
         margin-bottom: 20px;
         margin-right: 0;
     }
+
     .footer__form-input {
         text-align: center;
         margin-bottom: 15px;
@@ -611,6 +613,7 @@ body {
     .best {
         min-height: 400px;
     }
+
     .footer__top,
     .about,
     .reason,
